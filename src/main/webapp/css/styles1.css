@@ -1,0 +1,120 @@
+@charset "ISO-8859-1";
+
+#menu ul {
+	padding:0px;
+	margin:0px;
+	background-color: #DCDCDC;
+	list-style: none;
+	font-size: 18px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	font-size: 18px;
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid white;	
+	border-radius: 10px
+}
+
+#menu ul li a:hover {
+ 	font-size: 18px;
+ 	background-color: #DCDCDC;
+ 	color: #6D6D6D;
+ 	border-bottom: 3px solid blue;
+ 	
+}
+
+body {
+	background-color: #DCDCDC;
+}
+
+input[type=submit] {
+	border: 2px solid blue;
+	color: black;
+	background-color: #E6E6FA;
+	border-radius: 4px;
+	font-size: 20px;
+	
+}
+
+input[type=submit]:hover {
+	background-color: blue;
+	color: white;
+}
+
+.title {
+	font-size: 30px;
+	color: black;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	padding-bottom: 20px;
+	border: 6px solid #000000;
+	box-shadow: 20px 20px 0 #777777;
+	border-radius: 50px;
+}
+
+.id_input_data {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 250px;
+	font-size: 20px;
+}
+
+.date_input_data {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.input_data {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.table_round {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.th_dash {
+	border: 0.5px solid blue;
+	border-style: dashed;
+}
+
+.th_groove {
+	border: 0.5px solid red;
+	border-style: groove;	
+}
+
+.id_input_data_viagem {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 30px;
+	width: 100px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+	
+	
+	
